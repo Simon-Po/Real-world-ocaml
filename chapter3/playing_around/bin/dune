@@ -1,0 +1,6 @@
+(executable
+ (public_name playing_around)
+ (name main)
+ (libraries playing_around core)
+ (preprocess
+  (pps ppx_inline_test)))

@@ -1,0 +1,6 @@
+(executable
+ (public_name kv)
+ (name main)
+ (libraries kv core)
+ (preprocess
+  (pps ppx_inline_test ppx_expect)))

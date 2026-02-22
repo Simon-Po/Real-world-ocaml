@@ -1,0 +1,4 @@
+(executable
+ (public_name playing_aroung)
+ (name main)
+ (libraries playing_aroung base stdio))

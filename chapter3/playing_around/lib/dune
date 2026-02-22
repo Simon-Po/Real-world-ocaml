@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name playing_around)
+  (libraries stdio base)
+ (preprocess
+  (pps ppx_inline_test)))

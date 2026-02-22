@@ -1,0 +1,6 @@
+open Playing_around.Book;;
+let header = ["language";"architect";"first release"] ;;
+let rows = [ ["Lisp" ;"John McCarthy" ;"1958"] ;
+       ["C"    ;"Dennis Ritchie";"1969"] ;
+       ["ML"   ;"Robin Milner"  ;"1973"] ;
+       ["OCaml";"Xavier Leroy"  ;"1996"] ;];;

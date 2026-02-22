@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name fa)
+  (libraries base stdio)
+ (preprocess
+  (pps ppx_inline_test)))

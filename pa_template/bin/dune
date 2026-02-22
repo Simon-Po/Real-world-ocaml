@@ -1,0 +1,6 @@
+(executable
+ (public_name pa)
+ (name main)
+ (libraries pa core)
+ (preprocess
+  (pps ppx_inline_test ppx_expect)))

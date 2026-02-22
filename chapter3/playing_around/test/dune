@@ -1,0 +1,5 @@
+(test
+ (name test_playing_around)
+ (libraries playing_around)
+ (preprocess
+  (pps ppx_inline_test)))

@@ -1,0 +1,6 @@
+(executable
+ (public_name fa)
+ (name main)
+ (libraries fa)
+ (preprocess
+  (pps ppx_inline_test)))

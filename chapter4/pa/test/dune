@@ -1,0 +1,5 @@
+(test
+ (name test_pa)
+ (libraries pa)
+ (preprocess
+  (pps ppx_inline_test)))

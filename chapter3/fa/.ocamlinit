@@ -1,0 +1,25 @@
+open Base;;
+open Stdio;;
+
+open Fa;;
+
+
+let word_counts = [("hello", 2); ("world", 1)]
+
+let sample_longest = "hello world
+hello ocaml this one is long
+hello ocaml
+hello ocaml
+
+hello world not this
+
+"
+let sample = "hello world
+hello ocaml
+hello ocaml
+hello ocaml
+
+hello world
+"
+
+let counting_sample = ["One";"Two"; "Three Four"]
