@@ -6,7 +6,7 @@ This repository contains my work and projects while reading Real World OCaml.
 
 i do enjoy, when learning something new to build a small project with every chapter, llms are pretty good at coming up with fitting ones and giving reviews after
 
--
+
 
 ## 1 — A Guided Tour
 
@@ -17,7 +17,7 @@ Project: toolbox
 Small CLI utilities to practice recursion, list processing, and simple I/O.
 > Starting out ocaml had a pretty weird syntax to be honest.
 
--
+
 
 ## 2 — Variables & Functions
 
@@ -29,7 +29,7 @@ Built a multi-command CLI using variants and structured argument parsing.
 
 > Learned about Base Core Stdio, The jane street ecosystem
 
--
+
 
 ## 3 — Lists & Pattern Matching
 
@@ -41,7 +41,7 @@ CLI tool that computes line count, word count, character count, longest line, an
 > i have always thought every language should have pattern matching, additionally here i actually felt that i am writing a compiled language for the first time, i used the text analyzer on biger files and it was pretty quick
 
 
--
+
 
 ## 4 — Modules & Abstraction
 
@@ -58,7 +58,7 @@ Project: kv — Pluggable Key–Value Store
 
 > One of the most important things i want to get out of this book, i feel like strong abstraction and the idea of modeling with types is something missing from my work right now. Actually pretty enjoyable with ocaml
 
--
+
 
 ## Aside: Functional Programming Comparison
 
