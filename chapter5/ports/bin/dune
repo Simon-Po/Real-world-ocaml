@@ -1,0 +1,6 @@
+(executable
+ (public_name ports)
+ (name main)
+ (libraries ports core)
+ (preprocess
+  (pps ppx_inline_test ppx_expect ppx_jane)))

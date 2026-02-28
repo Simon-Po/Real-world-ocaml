@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/ports/META"
+  "_build/install/default/lib/ports/dune-package"
+  "_build/install/default/lib/ports/opam"
+]
+bin: [
+  "_build/install/default/bin/ports"
+]

@@ -1,0 +1,53 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/spohl/.cache/dune/db
+# Workspace root: /Users/spohl/dev/priv/books/real-world-ocaml/chapter5/ports
+# Auto-detected concurrency: 10
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/spohl/.opam/5.4.0/bin/ocamlc.opt -config > /var/folders/ss/9zknwf8d3kgcsszvwnsnwhjw0000gp/T/dune_a32cc5_output
+$ (cd _build/.sandbox/cee8d7158cba630ad7073d16d397df57/default && .ppx/a0e0eff2eba98c02bad6b0d9cd79625f/ppx.exe --cookie 'inline_tests="enabled"' --cookie 'library-name="ports"' -o lib/ports.pp.ml --impl lib/ports.ml -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
+$ (cd _build/default && /Users/spohl/.opam/5.4.0/bin/ocamlc.opt -short-paths -keep-locs -warn-error +a -w @A-4-33-40-41-42-43-34-44 -g -bin-annot -bin-annot-occurrences -I lib/.ports.objs/byte -I /Users/spohl/.opam/5.4.0/lib/base -I /Users/spohl/.opam/5.4.0/lib/base/base_internalhash_types -I /Users/spohl/.opam/5.4.0/lib/base/md5 -I /Users/spohl/.opam/5.4.0/lib/base/shadow_stdlib -I /Users/spohl/.opam/5.4.0/lib/base_bigstring -I /Users/spohl/.opam/5.4.0/lib/base_quickcheck -I /Users/spohl/.opam/5.4.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /Users/spohl/.opam/5.4.0/lib/bin_prot -I /Users/spohl/.opam/5.4.0/lib/bin_prot/shape -I /Users/spohl/.opam/5.4.0/lib/core -I /Users/spohl/.opam/5.4.0/lib/core/base_for_tests -I /Users/spohl/.opam/5.4.0/lib/core/command -I /Users/spohl/.opam/5.4.0/lib/core/filename_base -I /Users/spohl/.opam/5.4.0/lib/core/heap_block -I /Users/spohl/.opam/5.4.0/lib/core/univ_map -I /Users/spohl/.opam/5.4.0/lib/core/validate -I /Users/spohl/.opam/5.4.0/lib/core_kernel/caml_threads -I /Users/spohl/.opam/5.4.0/lib/core_kernel/caml_unix -I /Users/spohl/.opam/5.4.0/lib/core_kernel/flags -I /Users/spohl/.opam/5.4.0/lib/core_unix -I /Users/spohl/.opam/5.4.0/lib/core_unix/error_checking_mutex -I /Users/spohl/.opam/5.4.0/lib/core_unix/signal_unix -I /Users/spohl/.opam/5.4.0/lib/fieldslib -I /Users/spohl/.opam/5.4.0/lib/gel -I /Users/spohl/.opam/5.4.0/lib/int_repr -I /Users/spohl/.opam/5.4.0/lib/jane-street-headers -I /Users/spohl/.opam/5.4.0/lib/ocaml/threads -I /Users/spohl/.opam/5.4.0/lib/ocaml/unix -I /Users/spohl/.opam/5.4.0/lib/ocaml_intrinsics_kernel -I /Users/spohl/.opam/5.4.0/lib/parsexp -I /Users/spohl/.opam/5.4.0/lib/ppx_assert/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_bench/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_compare/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_diff/diffable -I /Users/spohl/.opam/5.4.0/lib/ppx_diff/diffable_cinaps -I /Users/spohl/.opam/5.4.0/lib/ppx_enumerate/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/config -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/config_types -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/make_corrected_file -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_hash/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_here/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_inline_test/config -I /Users/spohl/.opam/5.4.0/lib/ppx_inline_test/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_log/syntax -I /Users/spohl/.opam/5.4.0/lib/ppx_log/types -I /Users/spohl/.opam/5.4.0/lib/ppx_module_timer/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_sexp_conv/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_stable_witness/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_stable_witness/stable_witness -I /Users/spohl/.opam/5.4.0/lib/ppx_string/runtime -I /Users/spohl/.opam/5.4.0/lib/ppxlib/print_diff -I /Users/spohl/.opam/5.4.0/lib/sexplib -I /Users/spohl/.opam/5.4.0/lib/sexplib/unix -I /Users/spohl/.opam/5.4.0/lib/sexplib0 -I /Users/spohl/.opam/5.4.0/lib/spawn -I /Users/spohl/.opam/5.4.0/lib/splittable_random -I /Users/spohl/.opam/5.4.0/lib/stdio -I /Users/spohl/.opam/5.4.0/lib/time_now -I /Users/spohl/.opam/5.4.0/lib/typerep -I /Users/spohl/.opam/5.4.0/lib/variantslib -cmi-file lib/.ports.objs/byte/ports.cmi -no-alias-deps -opaque -o lib/.ports.objs/byte/ports.cmo -c -impl lib/ports.pp.ml)
+> File "lib/ports.ml", line 47, characters 2-23:
+> 47 |   conn : Connection.t ; is_system_process : bool
+>        ^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): record field conn is never read.
+>   (However, this field is used to build or mutate values.)
+>
+> File "lib/ports.ml", line 47, characters 24-48:
+> 47 |   conn : Connection.t ; is_system_process : bool
+>                              ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): record field is_system_process is never read.
+>   (However, this field is used to build or mutate values.)
+>
+> File "lib/ports.ml", line 50, characters 4-10:
+> 50 | let enrich (conn:Connection.t): enriched =
+>          ^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value enrich.
+[2]
+$ (cd _build/default && /Users/spohl/.opam/5.4.0/bin/ocamlopt.opt -short-paths -keep-locs -warn-error +a -w @A-4-33-40-41-42-43-34-44 -g -I lib/.ports.objs/byte -I lib/.ports.objs/native -I /Users/spohl/.opam/5.4.0/lib/base -I /Users/spohl/.opam/5.4.0/lib/base/base_internalhash_types -I /Users/spohl/.opam/5.4.0/lib/base/md5 -I /Users/spohl/.opam/5.4.0/lib/base/shadow_stdlib -I /Users/spohl/.opam/5.4.0/lib/base_bigstring -I /Users/spohl/.opam/5.4.0/lib/base_quickcheck -I /Users/spohl/.opam/5.4.0/lib/base_quickcheck/ppx_quickcheck/runtime -I /Users/spohl/.opam/5.4.0/lib/bin_prot -I /Users/spohl/.opam/5.4.0/lib/bin_prot/shape -I /Users/spohl/.opam/5.4.0/lib/core -I /Users/spohl/.opam/5.4.0/lib/core/base_for_tests -I /Users/spohl/.opam/5.4.0/lib/core/command -I /Users/spohl/.opam/5.4.0/lib/core/filename_base -I /Users/spohl/.opam/5.4.0/lib/core/heap_block -I /Users/spohl/.opam/5.4.0/lib/core/univ_map -I /Users/spohl/.opam/5.4.0/lib/core/validate -I /Users/spohl/.opam/5.4.0/lib/core_kernel/caml_threads -I /Users/spohl/.opam/5.4.0/lib/core_kernel/caml_unix -I /Users/spohl/.opam/5.4.0/lib/core_kernel/flags -I /Users/spohl/.opam/5.4.0/lib/core_unix -I /Users/spohl/.opam/5.4.0/lib/core_unix/error_checking_mutex -I /Users/spohl/.opam/5.4.0/lib/core_unix/signal_unix -I /Users/spohl/.opam/5.4.0/lib/fieldslib -I /Users/spohl/.opam/5.4.0/lib/gel -I /Users/spohl/.opam/5.4.0/lib/int_repr -I /Users/spohl/.opam/5.4.0/lib/jane-street-headers -I /Users/spohl/.opam/5.4.0/lib/ocaml/threads -I /Users/spohl/.opam/5.4.0/lib/ocaml/unix -I /Users/spohl/.opam/5.4.0/lib/ocaml_intrinsics_kernel -I /Users/spohl/.opam/5.4.0/lib/parsexp -I /Users/spohl/.opam/5.4.0/lib/ppx_assert/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_bench/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_compare/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_diff/diffable -I /Users/spohl/.opam/5.4.0/lib/ppx_diff/diffable_cinaps -I /Users/spohl/.opam/5.4.0/lib/ppx_enumerate/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/config -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/config_types -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/make_corrected_file -I /Users/spohl/.opam/5.4.0/lib/ppx_expect/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_hash/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_here/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_inline_test/config -I /Users/spohl/.opam/5.4.0/lib/ppx_inline_test/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_log/syntax -I /Users/spohl/.opam/5.4.0/lib/ppx_log/types -I /Users/spohl/.opam/5.4.0/lib/ppx_module_timer/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_sexp_conv/runtime-lib -I /Users/spohl/.opam/5.4.0/lib/ppx_stable_witness/runtime -I /Users/spohl/.opam/5.4.0/lib/ppx_stable_witness/stable_witness -I /Users/spohl/.opam/5.4.0/lib/ppx_string/runtime -I /Users/spohl/.opam/5.4.0/lib/ppxlib/print_diff -I /Users/spohl/.opam/5.4.0/lib/sexplib -I /Users/spohl/.opam/5.4.0/lib/sexplib/unix -I /Users/spohl/.opam/5.4.0/lib/sexplib0 -I /Users/spohl/.opam/5.4.0/lib/spawn -I /Users/spohl/.opam/5.4.0/lib/splittable_random -I /Users/spohl/.opam/5.4.0/lib/stdio -I /Users/spohl/.opam/5.4.0/lib/time_now -I /Users/spohl/.opam/5.4.0/lib/typerep -I /Users/spohl/.opam/5.4.0/lib/variantslib -cmi-file lib/.ports.objs/byte/ports.cmi -no-alias-deps -opaque -o lib/.ports.objs/native/ports.cmx -c -impl lib/ports.pp.ml)
+> File "lib/ports.ml", line 47, characters 2-23:
+> 47 |   conn : Connection.t ; is_system_process : bool
+>        ^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): record field conn is never read.
+>   (However, this field is used to build or mutate values.)
+>
+> File "lib/ports.ml", line 47, characters 24-48:
+> 47 |   conn : Connection.t ; is_system_process : bool
+>                              ^^^^^^^^^^^^^^^^^^^^^^^^
+> Error (warning 69 [unused-field]): record field is_system_process is never read.
+>   (However, this field is used to build or mutate values.)
+>
+> File "lib/ports.ml", line 50, characters 4-10:
+> 50 | let enrich (conn:Connection.t): enriched =
+>          ^^^^^^
+> Error (warning 32 [unused-value-declaration]): unused value enrich.
+[2]

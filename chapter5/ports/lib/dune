@@ -1,0 +1,6 @@
+(library
+ (inline_tests)
+ (name ports)
+ (libraries core core_unix)
+ (preprocess
+  (pps ppx_inline_test ppx_expect ppx_jane)))

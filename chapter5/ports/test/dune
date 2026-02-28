@@ -1,0 +1,5 @@
+(test
+ (name test_ports)
+ (libraries ports)
+ (preprocess
+  (pps ppx_inline_test ppx_expect ppx_jane)))
